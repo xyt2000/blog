@@ -1,4 +1,4 @@
-![image-20210924180201944](C:\Users\XYT\AppData\Roaming\Typora\typora-user-images\image-20210924180201944.png)
+![image-20210924180201944](../photos/index.jpg)
 
 ## 嘉心糖
 
