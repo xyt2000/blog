@@ -1,4 +1,4 @@
-![image-20210924180201944](../photos/index.jpg)
+![image-20210924180201944](photos/index.jpg)
 
 ## 嘉心糖
 
