@@ -1,17 +1,12 @@
-![icon](https://cdn.jsdelivr.net/gh/wugenqiang/StaticRepo/images/icon.png)
+![image-20210924180201944](C:\Users\XYT\AppData\Roaming\Typora\typora-user-images\image-20210924180201944.png)
 
-## 字节飞扬
+## 嘉心糖
 
-- 互联网是有记忆的，我想留下一些成长的脚印。
-
-
-<img src="https://img.shields.io/github/stars/bytesfly/blog" data-origin="https://img.shields.io/github/stars/bytesfly/blog" alt=""> 
-<img src="https://img.shields.io/github/forks/bytesfly/blog" data-origin="https://img.shields.io/github/forks/bytesfly/blog" alt="">
-<img src="https://img.shields.io/github/license/bytesfly/blog" data-origin="https://img.shields.io/github/license/bytesfly/blog" alt="">
+- 以后的路，要勇敢地向前走
 
 <br>
 
-[GitHub](https://github.com/bytesfly/blog)
+[GitHub](https://github.com/xyt2000/)
 [开始阅读](README.md)
 
 
