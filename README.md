@@ -16,7 +16,7 @@
 
 # 读书笔记
 
-- [人月神话](Book/Man-Month.md)
+- [人月神话](Week/Man-Month.md)
 
 ## 工具
 
