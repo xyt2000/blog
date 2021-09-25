@@ -390,16 +390,6 @@ hook.doneEach(function() {
     twemoji.parse(document);
 });
 
-          hook.doneEach(function() {
-             (function(d, s) {
-                 var j, e = d.getElementsByTagName(s)[0];
-                 if (typeof LivereTower === 'function') { return; }
-                 j = d.createElement(s);
-                 j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-                 j.async = true;
-                 e.parentNode.insertBefore(j, e);
-             })(document, 'script');
-          });
           hook.beforeEach(function(content) {
     var copyRight = '文章作者: [xyt2000](https://github.com/xyt2000/) \n\n'+'文章链接: '+url+'\n\n'
     +'版权声明: 本博客所有文章除特别声明外，均采用'+
@@ -516,22 +506,7 @@ hook.doneEach(function() {
   <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/js/prism-yaml.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/wugenqiang/StaticRepo/src/js/prism-go.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/wugenqiang/StaticRepo/src/js/prism-matlab.js"></script>
-  <div id="lv-container" data-id="city" data-uid="MTAyMC81NDM0Ni8zMDgxNw==">
-    <script type="text/javascript">
-     (function(d, s) {
-         var j, e = d.getElementsByTagName(s)[0];
-  
-         if (typeof LivereTower === 'function') { return; }
-  
-         j = d.createElement(s);
-         j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-         j.async = true;
-  
-         e.parentNode.insertBefore(j, e);
-     })(document, 'script');
-    </script>
-  <noscript> 为正常使用来必力评论功能请激活JavaScript</noscript>
-  </div>
+
   <!-- 添加页脚 -->
   <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/docsify-footer-enh.min.js"></script>
 
