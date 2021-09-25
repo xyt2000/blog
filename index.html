@@ -20,6 +20,9 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/css/friends-link.css">
   <!-- 自定义特色样式：by myself -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/css/me.css">
+<!-- twemoji -->
+<script src="cdn.jsdelivr.net/gh/TaQini/docsify-twemoji@master/twemoji.min.js"></script>
+
 
   <style>
 
@@ -338,7 +341,9 @@
 </head>
 <body>
 <div id="app">代码改变世界</div>
+<!-- 来必力City版安装代码 -->
 
+<!-- City版安装代码已完成 -->
 
 
   <script>
@@ -373,6 +378,29 @@
         pre: '<hr/>',
         style: 'text-align: left;',
       },//添加页脚
+      plugins: [
+        function (hook, vm) {
+          // load livere
+          hook.beforeEach(function(content) {
+              var comment = "<div id='lv-container' data-id='city' data-uid='MTAyMC81NDM0Ni8zMDgxNw=='></div>\n\n----\n"
+              return content + comment;
+          });
+// parse twemoji
+hook.doneEach(function() {
+    twemoji.parse(document);
+});
+
+          hook.beforeEach(function(content) {
+    var copyRight = '文章作者: [xyt2000](https://github.com/xyt2000/) \n\n'+'文章链接: '+url+'\n\n'
+    +'版权声明: 本博客所有文章除特别声明外，均采用'+
+        '[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)许可协议。\n\n'
+    +'转载请注明来自 [xyt2000](https://github.com/xyt2000/)\n'
+    return content + copyRight;
+});
+        },
+      ],
+      // add copyright
+
 
       markdown: {
         renderer: {
