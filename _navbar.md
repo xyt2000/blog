@@ -4,6 +4,7 @@
   - [AI学习](README?id=AI)
   - [pytorch学习](README?id=Pytorch)
   - [代码学习](README?id=Code)
+  - [读书笔记](README?id=Book)
   - [工具](README?id=工具)
 - [<span class="iconfont icon-csdn"></span> CSDN](https://blog.csdn.net/qq_41257683?spm=1001.2101.3001.5343)
 - [<span class="iconfont icon-github1"></span> GitHub](https://github.com/bytesfly/blog)
