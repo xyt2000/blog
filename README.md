@@ -4,9 +4,11 @@
 
 ## AI学习
 
+- [回归&反向传播](AI/fp.md)
 
+  
 
-## Pytorch学习
+## torch学习
 
 
 
